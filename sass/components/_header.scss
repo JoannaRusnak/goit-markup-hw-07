@@ -1,0 +1,11 @@
+.header {
+	background-color: get-bg-color(basic-background);
+	height: 80px;
+	border-bottom: 1px solid #ececec;
+
+	&__links {
+    	display: flex;
+	}
+}
+
+

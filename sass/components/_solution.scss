@@ -1,0 +1,30 @@
+.solution {
+	height: 600px;
+	max-width: 1600px;
+	background: rgba(47, 48, 58, 0.4);
+	background-image:linear-gradient(
+    to bottom,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+	),
+    url(../images/team.jpg);
+	display: block;
+	border: 1px none;
+
+	&__header {
+		font-weight: 900;
+		font-size: 44px;
+		font-family: get-font(primary);
+		line-height: 1.4;
+		letter-spacing: 0.06em;
+		border: 1px none;
+		text-transform: uppercase;
+		color: get-color(light-text);
+		display: block;
+		width: 696px;
+		margin:0 auto;
+		padding-top: 100px;
+		text-align: center;
+	}
+}
+
